@@ -4,17 +4,34 @@
   padding: 0;
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+img {
+  max-width: 100%;
+}
+/* CLASSI HEADER  */
 header {
   min-height: 80px;
-  min-width: 1180px;
+  min-width: 900px;
   background-color: #3161e0;
   justify-content: center;
 }
-
-.flex {
-  display: flex;
+.jumbotrone {
+  text-align: center;
+  background-image: url(./img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
+
+/* CLASSI PARAGRAFI */
+#first-p {
+  margin-bottom: 25px;
+}
+#second-p {
+  margin-top: 25px;
+  font-size: 0.9rem;
+}
+
 /* classi di DEBUG */
 .debug {
   border: 2px dotted red;
@@ -47,7 +64,19 @@ li {
   color: black;
   border: 1px solid black;
 }
+.button-black {
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
 /* CLASSI DI POSIZIONE */
+
+.flex {
+  display: flex;
+}
 .align-itemscenter {
   align-items: center;
 }
@@ -60,21 +89,35 @@ li {
 }
 /* CLASSI CONTENITORI */
 .container {
-  min-width: 1180px;
+  min-width: 900px;
   min-height: 400px;
-  justify-content: center;
 }
 .container-small {
-  min-width: 700px;
+  min-width: 900px;
 }
 .container-big {
-  min-width: 1180px;
+  min-width: 900px;
   min-height: 800px;
   justify-content: center;
 }
 .container-footer {
   min-height: 80px;
   min-width: 1180px;
+}
+/* CLASSI FONT */
+.b-font {
+  font-size: 3rem;
+}
+.m-font {
+  font-size: 1.2rem;
+}
+
+.main-title {
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+.secondary-title {
+  font-size: 2.4rem;
 }
 
 /* CLASSI BACKGROUND */
@@ -91,14 +134,6 @@ li {
   background-color: rgb(255, 175, 69);
 }
 
-.jumbotrone {
-  text-align: center;
-  background-image: url(./img/jumbo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .black {
   background-color: black;
 }
@@ -110,15 +145,15 @@ li {
 }
 /* CLASSI BOX */
 .box-1 {
-  width: 500px;
-  height: 300px;
-  background-color: rgb(0, 166, 255);
+  /* width: 500px;
+  height: 300px; */
+  /* padding-top: 50px; */
 }
 
 .box-2 {
   width: 200px;
-  height: 300px;
-  background-color: pink;
+  /* height: 300px;
+  margin-top: 90px; */
 }
 
 .box-big {
