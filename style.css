@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 80px;
+  min-width: 1180px;
+  background-color: rgb(0, 255, 255);
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+/* classi di DEBUG */
+.debug {
+  border: 2px dotted red;
+}
+
+.logo,
+.link,
+.login {
+  background-color: goldenrod;
+}
+.logo {
+  width: 25%;
+}
+.link {
+  width: 50%;
+  text-align: center;
+}
+.login {
+  width: 25%;
+  text-align: end;
+}
+/* CLASSI DI POSIZIONE */
+.align-itemscenter {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+/* CLASSI CONTENITORI */
+.container {
+  min-width: 1180px;
+  min-height: 400px;
+  justify-content: center;
+}
+.container-small {
+  min-width: 700px;
+}
+.container-big {
+  min-width: 1180px;
+  min-height: 800px;
+  justify-content: center;
+}
+.container-footer {
+  min-height: 80px;
+  min-width: 1180px;
+}
+
+/* CLASSI BACKGROUND */
+.blu {
+  background-color: blue;
+}
+.gray {
+  background-color: lightgray;
+}
+.orange {
+  background-color: rgb(255, 175, 69);
+}
+
+.img-rosa {
+  background-color: pink;
+  height: 300px;
+  width: 600px;
+}
+.black {
+  background-color: black;
+}
+.acqua {
+  background-color: rgb(109, 184, 216);
+}
+.cyan {
+  background-color: darkcyan;
+}
+/* CLASSI BOX */
+.box-1 {
+  width: 500px;
+  height: 300px;
+  background-color: rgb(0, 166, 255);
+}
+
+.box-2 {
+  width: 200px;
+  height: 300px;
+  background-color: pink;
+}
+
+.box-big {
+  background-color: green;
+  width: 700px;
+  height: 600px;
+}
+.box-4 {
+  width: 500px;
+  height: 300px;
+}
+.box-3 {
+  width: 200px;
+  height: 300px;
+}
+
+.col-1 {
+  width: 25%;
+  height: 100%;
+}
+.col-2 {
+  width: 25%;
+  height: 100%;
+}
+
+.col-3 {
+  width: 25%;
+  height: 100%;
+}
+
+.col-4 {
+  width: 25%;
+  height: 100%;
+}
+
+.logo-2 {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+.bottone {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+.footer {
+  width: 700px;
+  min-height: 80px;
+  margin-top: 20px;
+}
