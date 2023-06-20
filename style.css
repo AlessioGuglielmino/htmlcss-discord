@@ -72,6 +72,15 @@ li {
   color: white;
   border: 1px solid black;
 }
+.button-light-blu {
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: rgb(125, 182, 228);
+  color: white;
+  border: 1px solid;
+  margin-bottom: 100px;
+}
 /* CLASSI DI POSIZIONE */
 .flex-column {
   flex-direction: column;
@@ -122,7 +131,8 @@ li {
 .secondary-title {
   font-size: 2.4rem;
 }
-.last-font{}
+.last-font {
+}
 
 /* CLASSI BACKGROUND */
 .azzurro {
@@ -145,38 +155,34 @@ li {
   background-color: rgb(109, 184, 216);
 }
 .cyan {
-  background-color: darkcyan;
+  color: #738adc;
 }
 /* CLASSI BOX */
 .box-1 {
   width: 500px;
-  height: 300px; */
-  padding-top: 50px;
 }
 
 .box-2 {
   width: 200px;
-  
-  margin-top: 90px;
-} 
+
+  margin-top: 20px;
+}
 
 .big-section {
   text-align: center;
   margin-top: 100px;
-  
 }
 .box-4 {
   width: 500px;
-  height: 300px;
 }
 .box-3 {
   width: 200px;
-  height: 300px;
-} */  */
+  color: #3161e0;
+}
 
 .col-1 {
   width: 25%;
-  height: 100%;
+  /* height: 100%; */
 }
 .col-2 {
   width: 25%;
@@ -209,4 +215,8 @@ li {
   width: 700px;
   min-height: 80px;
   margin-top: 20px;
+}
+.ita-flag {
+  width: 20px;
+  margin: 50px;
 }
