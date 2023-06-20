@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
   min-height: 80px;
   min-width: 1180px;
-  background-color: rgb(0, 255, 255);
+  background-color: #3161e0;
   justify-content: center;
 }
 
@@ -22,18 +23,29 @@ header {
 .logo,
 .link,
 .login {
-  background-color: goldenrod;
+  color: white;
 }
 .logo {
   width: 25%;
+}
+li {
+  list-style: none;
 }
 .link {
   width: 50%;
   text-align: center;
 }
 .login {
-  width: 25%;
-  text-align: end;
+  width: 10%;
+}
+/* CLASSI BOTTONI */
+.button-white {
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 /* CLASSI DI POSIZIONE */
 .align-itemscenter {
@@ -66,6 +78,9 @@ header {
 }
 
 /* CLASSI BACKGROUND */
+.azzurro {
+  background-color: #3161e0;
+}
 .blu {
   background-color: blue;
 }
@@ -76,11 +91,14 @@ header {
   background-color: rgb(255, 175, 69);
 }
 
-.img-rosa {
-  background-color: pink;
-  height: 300px;
-  width: 600px;
+.jumbotrone {
+  text-align: center;
+  background-image: url(./img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .black {
   background-color: black;
 }
