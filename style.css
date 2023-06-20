@@ -33,9 +33,9 @@ header {
 }
 
 /* classi di DEBUG */
-.debug {
+/* .debug {
   border: 2px dotted red;
-}
+} */
 
 .logo,
 .link,
@@ -80,6 +80,14 @@ li {
   color: white;
   border: 1px solid;
   margin-bottom: 100px;
+}
+.button-footer {
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: rgb(125, 182, 228);
+  color: white;
+  border: 1px solid;
 }
 /* CLASSI DI POSIZIONE */
 .flex-column {
